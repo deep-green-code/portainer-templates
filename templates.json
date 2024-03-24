@@ -514,7 +514,7 @@
           "set": ""
         }
       ],
-      "image": "chevereto/chevereto:latest",
+      "image": "ghcr.io/chevereto/chevereto:latest",
       "logo": "https://raw.githubusercontent.com/Qballjos/portainer_templates/master/Images/Chevereto.png",
       "name": "Chevereto",
       "platform": "linux",
