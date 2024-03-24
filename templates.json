@@ -491,42 +491,50 @@
         {
           "label": "CHEVERETO_DB_HOST",
           "name": "CHEVERETO_DB_HOST",
-          "set": "database"
+          "set": "database",
+          "default": "database"
         },
         {
           "label": "CHEVERETO_DB_USER",
           "name": "CHEVERETO_DB_USER",
-          "set": "chevereto"
+          "set": "chevereto",
+          "default": "chevereto"
         },
         {
           "label": "CHEVERETO_DB_PASS",
           "name": "CHEVERETO_DB_PASS",
-          "set": "user_database_password"
+          "set": "user_database_password",
+          "default": "user_database_password"
         },
         {
           "label": "CHEVERETO_DB_PORT",
           "name": "CHEVERETO_DB_PORT",
-          "set": "3306"
+          "set": "3306",
+          "default": "3306"
         },
         {
           "label": "CHEVERETO_DB_NAME",
           "name": "CHEVERETO_DB_NAME",
-          "set": "chevereto"
+          "set": "chevereto",
+          "default": "chevereto"
         },
         {
           "label": "CHEVERETO_ASSET_STORAGE_TYPE",
           "name": "CHEVERETO_ASSET_STORAGE_TYPE",
-          "set": "local"
+          "set": "local",
+          "default": "local"
         },
         {
           "label": "CHEVERETO_ASSET_STORAGE_URL",
           "name": "CHEVERETO_ASSET_STORAGE_URL",
-          "set": "/images/_assets/"
+          "set": "/images/_assets/",
+          "default": "/images/_assets/"
         },
         {
           "label": "CHEVERETO_ASSET_STORAGE_BUCKET",
           "name": "CHEVERETO_ASSET_STORAGE_BUCKET",
-          "set": "/var/www/html/images/_assets/"
+          "set": "/var/www/html/images/_assets/",
+          "default": "/var/www/html/images/_assets/"
         }
       ],
       "image": "ghcr.io/chevereto/chevereto:latest",
